@@ -2,10 +2,10 @@
 FROM php:7.4-apache
 
 # Set the working directory in the container
-WORKDIR /var/www/html
+WORKDIR C:\xampp\htdocs\hello.php
 
 # Copy the current directory contents into the container at /var/www/html
-COPY . /var/www/html
+COPY . C:\xampp\htdocs\hello.php
 
 # Install any dependencies your PHP application might need
 # For example, if you're using Composer, uncomment the following lines:
